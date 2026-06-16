@@ -1,0 +1,341 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ModbusTool/1.0.0": {
+        "dependencies": {
+          "System.IO.Ports": "9.0.17"
+        },
+        "runtime": {
+          "ModbusTool.dll": {}
+        }
+      },
+      "runtime.android-arm.runtime.native.System.IO.Ports/9.0.17": {
+        "runtimeTargets": {
+          "runtimes/android-arm/native/libSystem.IO.Ports.Native.so": {
+            "rid": "android-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.android-arm64.runtime.native.System.IO.Ports/9.0.17": {
+        "runtimeTargets": {
+          "runtimes/android-arm64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "android-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.android-x64.runtime.native.System.IO.Ports/9.0.17": {
+        "runtimeTargets": {
+          "runtimes/android-x64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "android-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.android-x86.runtime.native.System.IO.Ports/9.0.17": {
+        "runtimeTargets": {
+          "runtimes/android-x86/native/libSystem.IO.Ports.Native.so": {
+            "rid": "android-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-arm.runtime.native.System.IO.Ports/9.0.17": {
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-arm64.runtime.native.System.IO.Ports/9.0.17": {
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-bionic-arm64.runtime.native.System.IO.Ports/9.0.17": {
+        "runtimeTargets": {
+          "runtimes/linux-bionic-arm64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-bionic-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-bionic-x64.runtime.native.System.IO.Ports/9.0.17": {
+        "runtimeTargets": {
+          "runtimes/linux-bionic-x64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-bionic-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-musl-arm.runtime.native.System.IO.Ports/9.0.17": {
+        "runtimeTargets": {
+          "runtimes/linux-musl-arm/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-musl-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-musl-arm64.runtime.native.System.IO.Ports/9.0.17": {
+        "runtimeTargets": {
+          "runtimes/linux-musl-arm64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-musl-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-musl-x64.runtime.native.System.IO.Ports/9.0.17": {
+        "runtimeTargets": {
+          "runtimes/linux-musl-x64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-x64.runtime.native.System.IO.Ports/9.0.17": {
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.maccatalyst-arm64.runtime.native.System.IO.Ports/9.0.17": {
+        "runtimeTargets": {
+          "runtimes/maccatalyst-arm64/native/libSystem.IO.Ports.Native.dylib": {
+            "rid": "maccatalyst-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.maccatalyst-x64.runtime.native.System.IO.Ports/9.0.17": {
+        "runtimeTargets": {
+          "runtimes/maccatalyst-x64/native/libSystem.IO.Ports.Native.dylib": {
+            "rid": "maccatalyst-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.native.System.IO.Ports/9.0.17": {
+        "dependencies": {
+          "runtime.android-arm.runtime.native.System.IO.Ports": "9.0.17",
+          "runtime.android-arm64.runtime.native.System.IO.Ports": "9.0.17",
+          "runtime.android-x64.runtime.native.System.IO.Ports": "9.0.17",
+          "runtime.android-x86.runtime.native.System.IO.Ports": "9.0.17",
+          "runtime.linux-arm.runtime.native.System.IO.Ports": "9.0.17",
+          "runtime.linux-arm64.runtime.native.System.IO.Ports": "9.0.17",
+          "runtime.linux-bionic-arm64.runtime.native.System.IO.Ports": "9.0.17",
+          "runtime.linux-bionic-x64.runtime.native.System.IO.Ports": "9.0.17",
+          "runtime.linux-musl-arm.runtime.native.System.IO.Ports": "9.0.17",
+          "runtime.linux-musl-arm64.runtime.native.System.IO.Ports": "9.0.17",
+          "runtime.linux-musl-x64.runtime.native.System.IO.Ports": "9.0.17",
+          "runtime.linux-x64.runtime.native.System.IO.Ports": "9.0.17",
+          "runtime.maccatalyst-arm64.runtime.native.System.IO.Ports": "9.0.17",
+          "runtime.maccatalyst-x64.runtime.native.System.IO.Ports": "9.0.17",
+          "runtime.osx-arm64.runtime.native.System.IO.Ports": "9.0.17",
+          "runtime.osx-x64.runtime.native.System.IO.Ports": "9.0.17"
+        }
+      },
+      "runtime.osx-arm64.runtime.native.System.IO.Ports/9.0.17": {
+        "runtimeTargets": {
+          "runtimes/osx-arm64/native/libSystem.IO.Ports.Native.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.osx-x64.runtime.native.System.IO.Ports/9.0.17": {
+        "runtimeTargets": {
+          "runtimes/osx-x64/native/libSystem.IO.Ports.Native.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "System.IO.Ports/9.0.17": {
+        "dependencies": {
+          "runtime.native.System.IO.Ports": "9.0.17"
+        },
+        "runtime": {
+          "lib/net9.0/System.IO.Ports.dll": {
+            "assemblyVersion": "9.0.0.17",
+            "fileVersion": "9.0.1726.26416"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/net9.0/System.IO.Ports.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "9.0.0.17",
+            "fileVersion": "9.0.1726.26416"
+          },
+          "runtimes/win/lib/net9.0/System.IO.Ports.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "9.0.0.17",
+            "fileVersion": "9.0.1726.26416"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ModbusTool/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtime.android-arm.runtime.native.System.IO.Ports/9.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2Qcb06oicyWrK2c3fQ99Nwi62IyVv2vzcDdA3m7G0KNA/SGSj1zoWuCWcPDs6q0vjQv05sL7JL8VsU66EyxESQ==",
+      "path": "runtime.android-arm.runtime.native.system.io.ports/9.0.17",
+      "hashPath": "runtime.android-arm.runtime.native.system.io.ports.9.0.17.nupkg.sha512"
+    },
+    "runtime.android-arm64.runtime.native.System.IO.Ports/9.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C+9EyBlyn65/pVbuh+R1OTosKRjDFd6PqADbywAYijjvtmPJtfGwIgTGV1ysyD5l7CF1qibZttHDCHnQNM49wQ==",
+      "path": "runtime.android-arm64.runtime.native.system.io.ports/9.0.17",
+      "hashPath": "runtime.android-arm64.runtime.native.system.io.ports.9.0.17.nupkg.sha512"
+    },
+    "runtime.android-x64.runtime.native.System.IO.Ports/9.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w4gwx2spaX0rHhof+9EsV3Hx0e4/hXWqlZy1fIstF5LF9vaWuODUs6VjzgVNnT85Rdd5Xsfolrvy7LCywgsKxA==",
+      "path": "runtime.android-x64.runtime.native.system.io.ports/9.0.17",
+      "hashPath": "runtime.android-x64.runtime.native.system.io.ports.9.0.17.nupkg.sha512"
+    },
+    "runtime.android-x86.runtime.native.System.IO.Ports/9.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NIKb6nDEYJfNQQy30/0SMAjaV+PYcc/ihXr1HDTdGZA5YOEzGwUITzXXpQc4OdU4RUYjsfglBcN/Ki1jwHEjjQ==",
+      "path": "runtime.android-x86.runtime.native.system.io.ports/9.0.17",
+      "hashPath": "runtime.android-x86.runtime.native.system.io.ports.9.0.17.nupkg.sha512"
+    },
+    "runtime.linux-arm.runtime.native.System.IO.Ports/9.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P2CYyvd/TcPi07gd51/p+yebxbsoJ97l1LKgD7/1lIcBJ5V6A0fXeOc76ffw8FqGJRCBoKt5ZPsx6IqwrG9ZCg==",
+      "path": "runtime.linux-arm.runtime.native.system.io.ports/9.0.17",
+      "hashPath": "runtime.linux-arm.runtime.native.system.io.ports.9.0.17.nupkg.sha512"
+    },
+    "runtime.linux-arm64.runtime.native.System.IO.Ports/9.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MPUT48tzSw+hCtiXt0BsXhpfCLtCpxBHYF/61+st3I2dkKf5EWAGgbOHzSs6CB7FEAct8+Y4q9Am6mLdLrgEZA==",
+      "path": "runtime.linux-arm64.runtime.native.system.io.ports/9.0.17",
+      "hashPath": "runtime.linux-arm64.runtime.native.system.io.ports.9.0.17.nupkg.sha512"
+    },
+    "runtime.linux-bionic-arm64.runtime.native.System.IO.Ports/9.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FjHbjThXF45sOZAgL6HHmKHxHUve0grr/YEpcn1F9Eb2Tqoz4/n2CiK/QrK4wSAunNhwejbhnDpBF/4Nfx6jew==",
+      "path": "runtime.linux-bionic-arm64.runtime.native.system.io.ports/9.0.17",
+      "hashPath": "runtime.linux-bionic-arm64.runtime.native.system.io.ports.9.0.17.nupkg.sha512"
+    },
+    "runtime.linux-bionic-x64.runtime.native.System.IO.Ports/9.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bU6ivYUZq90odxbxKzsjjr56SiKpNgq7xEg6sgoP0ec4mmnh38Qnx/h2YN4smpGTZr6bcKaIhwHNjxN2NfZQvw==",
+      "path": "runtime.linux-bionic-x64.runtime.native.system.io.ports/9.0.17",
+      "hashPath": "runtime.linux-bionic-x64.runtime.native.system.io.ports.9.0.17.nupkg.sha512"
+    },
+    "runtime.linux-musl-arm.runtime.native.System.IO.Ports/9.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RtZ0LvGzvQRTvKh1wHRWr5fNSwHbVrJ4bheRDLfjokzSXSuuZMakc6NO1zt8seHyFlG3D/9M1QohxCySIk7S0Q==",
+      "path": "runtime.linux-musl-arm.runtime.native.system.io.ports/9.0.17",
+      "hashPath": "runtime.linux-musl-arm.runtime.native.system.io.ports.9.0.17.nupkg.sha512"
+    },
+    "runtime.linux-musl-arm64.runtime.native.System.IO.Ports/9.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sO5UniNl3lnIPqN5qka+Rto9kur36Jh6i5WZzutquDrYqrPNwK8+BQOsGlPKJtvMwJTy/6BEJJRcC4ZVcxNadQ==",
+      "path": "runtime.linux-musl-arm64.runtime.native.system.io.ports/9.0.17",
+      "hashPath": "runtime.linux-musl-arm64.runtime.native.system.io.ports.9.0.17.nupkg.sha512"
+    },
+    "runtime.linux-musl-x64.runtime.native.System.IO.Ports/9.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GmLzbQ+Aee9N//dbJGX/idPZOIEyhkNspmJ6S79ed90yVIcmwRgUVhHYcrAFKWthPYMz+/fT1cHc1tAYAzjm1w==",
+      "path": "runtime.linux-musl-x64.runtime.native.system.io.ports/9.0.17",
+      "hashPath": "runtime.linux-musl-x64.runtime.native.system.io.ports.9.0.17.nupkg.sha512"
+    },
+    "runtime.linux-x64.runtime.native.System.IO.Ports/9.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+3v2CpONn5h7oRt76q8UV/QKP8oIVH7weDkFGSK8bAI7GtopTxmwuIJ25cQ6X9TIjjoGYym9j/RwJWKrtROBZg==",
+      "path": "runtime.linux-x64.runtime.native.system.io.ports/9.0.17",
+      "hashPath": "runtime.linux-x64.runtime.native.system.io.ports.9.0.17.nupkg.sha512"
+    },
+    "runtime.maccatalyst-arm64.runtime.native.System.IO.Ports/9.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TRQ8nKxvYgSnlEC1JW1WTcKZ1ZwBNJ4dZZHNvJe4qn08vTPZCPpqVN83slrYlAQeD+zoWmYR0koDj2UcqN5Opw==",
+      "path": "runtime.maccatalyst-arm64.runtime.native.system.io.ports/9.0.17",
+      "hashPath": "runtime.maccatalyst-arm64.runtime.native.system.io.ports.9.0.17.nupkg.sha512"
+    },
+    "runtime.maccatalyst-x64.runtime.native.System.IO.Ports/9.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0fov16+dO/hEXRAda7om1DLj7cOfBKZLDYh2+shtpk4tIIKFhtN4YTh99DeI4dtf9bamYmk5lv+rbrsK3mKs+w==",
+      "path": "runtime.maccatalyst-x64.runtime.native.system.io.ports/9.0.17",
+      "hashPath": "runtime.maccatalyst-x64.runtime.native.system.io.ports.9.0.17.nupkg.sha512"
+    },
+    "runtime.native.System.IO.Ports/9.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tLZK+EquiKyrkAuO0MWDDwmk18RqCUKilMw6rOUJlBAyvh/T/PtZ8lB0eEOiUQxdE9LOCHAnjDCPP9mDtMGX4g==",
+      "path": "runtime.native.system.io.ports/9.0.17",
+      "hashPath": "runtime.native.system.io.ports.9.0.17.nupkg.sha512"
+    },
+    "runtime.osx-arm64.runtime.native.System.IO.Ports/9.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VeLaDDtUzS6TZfgi4IOeCxcGjSw4g99R2bHR6yjHvZ88NMfM3Vw58KImdsMslDmzP/CxPMIm/CyhDI5+MLU7QQ==",
+      "path": "runtime.osx-arm64.runtime.native.system.io.ports/9.0.17",
+      "hashPath": "runtime.osx-arm64.runtime.native.system.io.ports.9.0.17.nupkg.sha512"
+    },
+    "runtime.osx-x64.runtime.native.System.IO.Ports/9.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZqXJgSEJ+I9cwn7QqEqCCZS+g3O43pIlhCzI3+vtPtFtDcc/VOqOOHopYZb+ByqvoBt5c10eO1piLlz0wsdxug==",
+      "path": "runtime.osx-x64.runtime.native.system.io.ports/9.0.17",
+      "hashPath": "runtime.osx-x64.runtime.native.system.io.ports.9.0.17.nupkg.sha512"
+    },
+    "System.IO.Ports/9.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f920PKJglWSYuqj4Ft3tw1rIdaBdX/QTmFjFhv10aJ3xFvJXYrbzkjeC9p6iilxXcJpM4HHYIa3/8rPhckssYQ==",
+      "path": "system.io.ports/9.0.17",
+      "hashPath": "system.io.ports.9.0.17.nupkg.sha512"
+    }
+  }
+}
